@@ -3,7 +3,7 @@
 ## Overview
 Just a simple Uniersity Project based on Arduino that translates series of light signals into human-readable text. 
 
-## Compiling
+## Building
 In order try it yourself just download files from src and run then using Arduino IDE. 
 
 ## Arduino schematics
