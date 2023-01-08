@@ -72,7 +72,7 @@ char readSymbol() {
 
     // If HIGH pulse return dot or dash
 
-    // WTF?! logically here should be current_state == false; but flase works...
+    // WTF?! logically here should be current_state == true; but it works...
     if (current_state == false ) {
       if ( singal_duration > dot_duration * (1 - error_coefficient) && singal_duration < (dot_duration * (1 + error_coefficient))) return '.';
       if ( singal_duration > dash_duration * (1 - error_coefficient) && singal_duration < (dash_duration * (1 + error_coefficient))) return '-';
